@@ -1,8 +1,8 @@
-package products;
+package produk;
 
-public class ProductListing {
+public class productlisting {
     public static void main(String[] args) {
-        Product product_a = new Product("product a");
+        product product_a = new product("product a");
         product_a.getProductListing(5, 15, 10);
     }
 }
